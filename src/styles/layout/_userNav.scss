@@ -1,0 +1,24 @@
+.links{
+    display: flex;
+    gap: 15px;
+    .link{
+        background-color: var(--color-secondary-light);
+        border-radius: 10px;
+        color: var(--color-primary-dark);
+        font-size: 18px;
+        font-weight: 500;
+        padding: 14px 36px;
+        text-decoration: none;
+        transition: background-color .1s linear;
+    }
+    .link:hover{
+        background-color: var(--color-secondary-darker);
+    }
+    .active {
+        background-color: var(--color-accent);
+        color: var(--color-primary-light);
+    }
+    .active:hover{
+        background-color: var(--color-accent-dark);
+    }
+}

@@ -3,21 +3,22 @@ $bp-tablet: 768px;
 $bp-desktop: 1024px;
 $bp-wide: 2560px;
 :root {
-	--color-primary-dark: rgba(0, 0, 0, 0.87);
-    --color-secondary-dark: #7E7E7E;
-	--color-primary-light: #FFFFFF;
-	--color-secondary-light: #D0CFCF;
-	--color-accent: #F4E041;
-	--color-error: #CB3D40;
-	--color-accent-hover: #FFE302;
-	--color-back: #F8F8F8;
+	--color-primary-dark: #121417;
+	--color-secondary-dark: rgba(18, 20, 23, 0.5);
+	--color-secondary-darker: #cbcbcb;
+	--color-primary-light: #f7f7fb;
+	--color-secondary-light: #f0f0f0;
+	--color-light: #fff;
+	--color-accent: #3470ff;
+	--color-accent-dark: #0b44cd;
 }
 
 $color-primary-dark: var(--color-primary-dark);
 $color-secondary-dark: var(--color-secondary-dark);
+$color-secondary-darker: var(--color-secondary-darker);
 $color-primary-light: var(--color-primary-light);
 $color-secondary-light: var(--color-secondary-light);
 $color-accent: var(--color-accent);
-$color-accent-hover: var(--color-accent-hover);
-$color-back: var(--color-back);
-$color-error: var(--color-error)
+$color-accent-dark: var(--color-accent-dark);
+
+
