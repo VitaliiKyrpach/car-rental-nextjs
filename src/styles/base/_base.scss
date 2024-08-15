@@ -35,7 +35,7 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	// object-fit: cover;
+	object-fit: cover;
 }
 
 a {
@@ -61,6 +61,11 @@ ul {
 	max-width: 1440px;
 	width: 100%;
 	overflow: hidden;
+}
+.dots{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 // @media screen and (min-width: 768px) {
 // 	.container {

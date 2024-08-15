@@ -8,12 +8,6 @@ export default function Home() {
   return (
     <main>
       <Container>
-      <h1>Hello world</h1>
-      <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-      </ul>
       <Image src={car} alt='car'/>
       </Container>
     </main>

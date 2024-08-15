@@ -3,8 +3,8 @@
 
 @import "./layout/header.scss";
 @import "./layout/userNav.scss";
-// @import './layout/hero';
-// @import './layout/catalog';
-// @import './layout/register';
+@import './layout/catalog';
+
 
 @import "./components/logo.scss";
+@import './components/card.scss';

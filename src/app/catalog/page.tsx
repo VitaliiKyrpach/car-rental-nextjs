@@ -1,7 +1,10 @@
+import { CardList } from "@/components/CardList";
 import { Container } from "@/components/Container";
+import { Filter } from "@/components/Filter";
 
 export default function CatalogPage(){
     return <Container>
-        <h2>CatalogPage</h2>
+        <Filter/>
+        <CardList/>
         </Container>
 }
